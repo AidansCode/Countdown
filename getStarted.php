@@ -17,22 +17,15 @@
 	<p>
 		Complete this form to initiated a countdown
 	</p>
-	<form action="submit.php">
-		<label>
-			Name: 
-		</label>
-		<input type="text" name="name">
-		<label>
-			Date: 
-		</label>
-		<input type="date" name="date">
-		<label>
-			Time:
-		</label>
-		<input type="time" name="time">
+	<form action="submit.php" method="POST">
+		<label>Name:</label>
+		<input type="text" name="name"><br><br>
+		<label>Date: </label>
+		<input type="date" name="date"><br><br>
+		<label>Time:</label>
+		<input type="time" name="time"><br><br>
+		<input type="submit" value="Submit">
 	</form> <br>
-	<button>
-		Submit
-	</button>
+	
 </body>
 </html>
